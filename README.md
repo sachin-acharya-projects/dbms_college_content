@@ -46,3 +46,9 @@ CREATE TABLE table_name(
 ````
 DESCRIBE table_name
 ````
+
+#### DISPLAY WARNING - MySQL CLI
+````
+\W
+SHOW WARNINGS;
+````

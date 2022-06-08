@@ -29,3 +29,20 @@ DROP DATABASE DB_NAME
 ````
 SHOW TABLES:
 ````
+
+#### CREATING TABLE 
+````
+CREATE TABLE table_name(
+    column_name_1 datatypes(size) ...,
+    column_name_2 datatypes(size) ...,
+    column_name_3 datatypes(size) ...,
+    column_name_4 datatypes(size) ...,
+    ....
+    column_name_n datatypes(size) ...
+)
+````
+
+#### TO SEE DATABASES FIELD FORMATS
+````
+DESCRIBE table_name
+````

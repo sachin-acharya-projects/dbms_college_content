@@ -49,6 +49,12 @@ DESCRIBE table_name
 
 #### DISPLAY WARNING - MySQL CLI
 ````
-\W
-SHOW WARNINGS;
+\W # Activate warnings -- one time need
+SHOW WARNINGS; # Command to view warning
+````
+
+#### JOINING MULTIPLE COLUMNS
+````
+SELECT `column(s)_name`, CONCAT_WS('separator', column_name, ...) FROM `table_name`;
+# SELECT *, CONCAT_WS(',', Address, PostalCode, Country) FROM `table_name`
 ````
